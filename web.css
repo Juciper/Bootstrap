@@ -1,0 +1,302 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins',sans-serif;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background:#080808;
+}
+
+
+.container{
+  padding: 10px 10%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap ;
+}
+
+.logo{
+  width: 100px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after{
+  content:'' ;
+  width: 0;
+  height: 3px;
+  background: #ff044f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.4s;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+}
+.header-text{
+  margin-top: 20%;
+  font-size: 30px;  
+}
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
+}
+.header-text h1 span{
+  color: gray;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.tourist img{
+    height: 300px;
+}
+body{
+    background-color:darkgray;
+}
+/* about us */
+#about{
+    padding-top : 80px 0;
+    color: black;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-col-1 {
+    flex-basis: 35%;
+  }
+  .about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+  }
+  .about-col-2{
+    flex-basis: 60%;
+  }
+  .sub-title{
+  font-size: 60px;
+  color: black;
+  font-weight: 600;
+  }
+  .tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+  }
+  .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+  }
+  .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.4s;
+  }
+  .tab-links.active-link::after{
+    width: 50%;
+  }
+  .tab-contents{
+    list-style: none;
+    margin: 10px 0;
+  }
+  .tab-contents ul li span{
+    color: gray;
+    font-size: 14px;
+  }
+  .tab-contents{
+    display: none;
+  }
+  .tab-contents.active-tab{
+    display: block;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  .card img{
+    height: 400px;
+    width: 300px;
+  }
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+/* contact */
+
+.contact-left{
+    flex-basis: 35%;
+  }
+  .contact-right{
+    flex-basis: 60%;
+  }
+  .contact-left p{
+    margin-top: 30px;
+  }
+  .contact-left p i{
+    color: blue;
+    margin-right: 15px;
+    font-size: 25px;
+  }
+  .social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #adabad;
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+  .social-icons a:hover{
+    color: black;
+    transform: translateY(-5px);
+  }
+  .btn.btn2{
+    display: inline-block;
+    background: white;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+  }
+  .btn.btn2:hover{
+    background-color: yellowgreen;
+    transition: 0.5s;
+  }
+  .contact-right form{
+    width: 100%;
+  }
+  form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262226;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background:gray;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  .copyright i{
+    color: #fff0ff;
+  }
+  .btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+  }
+  .btn:hover{
+    background: #ff004f;
+  }
+  
+  .button:hover{
+    transition: 0.5s;
+    background-color: skyblue;
+    cursor: pointer;
+  }

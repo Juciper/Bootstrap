@@ -1,0 +1,54 @@
+body {
+    background-color: gray;
+}
+table,thead,tbody,tr,td {
+    border: 1px solid black; 
+    text-align: center; ;
+}
+table {
+    border: 1px solid gray;
+}
+td {
+    width: 30px;
+    height: 30%px;
+    border-collapse: collapse;
+    font-size: 20px;
+   border: 1px solid gray;
+}
+.blue {
+    background-color: #14BDE6;
+    color: black;
+}
+.violet {
+    background-color:   #450061;
+    color: white;   
+}
+.violet1 {
+    background-color: #B1B6E4;
+}
+.red {
+    background-color:   #ff0000;
+    color: black;
+}
+.orange {
+    background-color: #E67222 ;
+}
+.blue1 {
+    background-color: #90EFF9 ;
+}
+.yellowgreen {
+    background-color: #71BF44;
+}
+.yellow {
+    background-color: #E4F51B;
+}
+.yellowgreen3 {
+    background-color: #8DE31F;
+}
+.green3 {
+    background-color: #15AE3F;
+}
+.text {
+    border: 1px solid white;
+    color: white;
+}
